@@ -1,0 +1,64 @@
+
+
+@keyframes fade-in {
+  0%   {opacity: 0.0;}
+  100% {opacity: 1.0;}
+}
+
+@media only screen and (max-width: 768px) {
+  #picturePanel{
+    background-image: none;
+    border-radius: 50px;
+    width: 0px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #picturePanel{
+    background-image: url('../images/employee2.jpg');
+
+  }
+}
+
+
+#CreateDeveloper {
+  background-image: url('../images/background-developerPage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  animation-name: fade-in;
+  animation-duration: 2s;
+}
+
+
+#picturePanel {
+    background-image: url('../images/employee2.jpg');
+    background-size: 100% 100%;
+    height: 40vh;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    margin-bottom: 70px;
+    border-radius: 5px;
+  }
+
+  #txtName{
+    margin-bottom: 30px;
+  }
+
+  #txtEmail{
+    margin-bottom: 30px;
+  }
+
+  #createDeveloperPanel{
+    margin-left:15vw;
+    margin-top: 5vh;
+  }
+
+  #title{
+    margin-left:15vw;
+  }
+
+#btnGetDevelopers{
+  margin-left: 15vw;
+}

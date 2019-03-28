@@ -1,0 +1,1 @@
+It works on localhost,because i can't afford hosting
